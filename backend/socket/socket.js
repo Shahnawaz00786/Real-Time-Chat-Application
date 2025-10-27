@@ -7,7 +7,7 @@ let app = express()
 const server=http.createServer(app)
 const io=new Server(server,{
     cors:{
-        origin:"http://localhost:5175"
+        origin:"https://real-time-chat-application-yaic.onrender.com"
     }
 })
  const userSocketMap ={}
